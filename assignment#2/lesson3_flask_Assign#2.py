@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[5]:
 
 
 from flask import Flask, render_template
@@ -12,7 +12,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    user = {"name":"Naples"}
+    destination = {"name":"Naples"}
+    user = {"name":"Joyce LI","id":"1155128280"}
     headers = {
         'Authorization': 'Bearer keysAky6ucMNj4qo4',
     }
@@ -30,12 +31,13 @@ def home():
     DesPageLink = []
     lat = []
     lng = []
+    picUrl = []
     #name = []
     for i in dict['records']:
          dict = i['fields']
          dataset.append(dict)
     #  {% for row in dataset  %}{{ row["name"] }}{% endfor %}
-    return render_template('home.html',album_user=user, dataset=dataset)
+    return render_template('home.html',album_user=user, destination=destination, dataset=dataset)
 
 
 @app.route("/aboutus")

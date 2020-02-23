@@ -79,12 +79,8 @@
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1>{{album_user.name}} Album</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-      <p>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-      </p>
+      <h1 style="color:#f35b00">{{destination.name}} Album</h1>
+        <h5 style="color:#aaa">{{album_user.name}}, id: {{album_user.id}}</h5>
     </div>
   </section>
 
@@ -95,17 +91,21 @@
         {% if loop.index == 1 %}{% set counter = ( counter | default(1) ) %}{% endif %}
         {% if counter == 1 %}<div class="row">{% endif %}
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#FEC64E"/>
-                <text x="50%" y="50%" fill="#fff" dy=".3em">
+          <div class="card mb-4 shadow-sm" style="width:100%">
+              
+           <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>-->
+                <!--<rect width="100%" height="100%" fill="#FEC64E"/>-->
+                <!--<text x="50%" y="50%" fill="#fff" dy=".3em">
                     <a href="{{item['DesPageLink']}}" target="_blank">{{ item['DestinationIt'] }}</a>
-                </text>
-                
-            </svg>
-            <div class="card-body">
-                <p class="card-text">English Name: {{ item['DestinationEn'] }}<br>Latitude: {{ item['lat'] }}<br>Longitude: {{ item['lng'] }}</p>  <!--Col#:{{ loop.index }}-->
+                </text>-->
+            <!--</svg>-->
+              
+             <a href="{{item['DesPageLink']}}" target="_blank">
+                 <img src="{{item['picUrl']}}" width="100%" height="50%">
+             </a>
+             <div class="card-body">
+                 <p class="card-text"><b>Destination: {{item['DestinationIt']}}</b> (En: {{ item['DestinationEn'] }})<br>Latitude: {{ item['lat'] }}<br>Longitude: {{ item['lng'] }}</p>  <!--Col#:{{ loop.index }}-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
