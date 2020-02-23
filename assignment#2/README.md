@@ -1,6 +1,6 @@
 # Assignment#2
 <h4> Ziqiao Li (Joyce), Student id:1155128280
-<br>Retrieve data from Airtable, show them in html with python. Run the website in PythonAnywhere</h4>
+<br>Retrieve data from Airtable with python. Run the website in PythonAnywhere</h4>
 <br>Check the website here: <a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
 
 <br>1. Jupyter notebook code:
