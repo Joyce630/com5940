@@ -1101,12 +1101,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337cbb;
+  color: #FA5105;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23547f;
+  color: rgb(67, 155, 161);
   text-decoration: underline;
 }
 a:focus {
@@ -1278,6 +1278,8 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
+  margin-top:15px!important;
+  margin-bottom:20px!important;
 }
 h4,
 .h4 {
@@ -3085,7 +3087,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #ffffff;
   background-color: #337cbb;
-  border-color: #2e6fa7;
+  border-color: rgb(67, 155, 161);
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3094,8 +3096,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #286193;
-  border-color: #204f77;
+  background-color: rgb(67, 155, 161);
+  border-color: rgb(67, 155, 161);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4158,7 +4160,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  /*border-width: 0 0 1px;*/
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4188,14 +4190,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  margin-right: 20px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  /*border: 1px solid transparent;*/
+
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4387,7 +4389,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #000000;
@@ -5747,6 +5748,9 @@ button.close {
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
+  margin-top:6rem;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .modal-backdrop {
   position: fixed;
@@ -5770,13 +5774,19 @@ button.close {
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 }
+@media(max-width:767px){
+  .modal-header{padding:5px;}
+}
+
 .modal-header .close {
   margin-top: -2px;
 }
 .modal-title {
-  margin: 0;
+  margin-left: 10px;
   line-height: 1.42857143;
 }
+
+
 .modal-body {
   position: relative;
   padding: 15px;
@@ -6645,7 +6655,7 @@ body {
   background-color: #eeeeee;
   margin-bottom: 0px !important;
   padding: 0px 0px;
-  background-color: transparent;
+  background-color: rgba(156, 89, 1, 0.3) ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
