@@ -1,0 +1,229 @@
+/* Add custom color CSS */
+.navbar-default {
+  background-color: #6a053d;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f2f794;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fa5105;
+}
+
+/* "album" */
+.navbar-default .navbar-nav > li > a:hover{
+  background-color: #ffd8c6;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #fa5105;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #fa5105;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f2f794;
+  background-color: #fa5105;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fa5105;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  box-shadow: 3px 3px 4px rgba(74, 74, 74, 0.5);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fa5105;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #f2f794;
+  background-color: #ff7a3c;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f2f794;
+    background-color: #fa5105;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f2f794;
+    background-color: #762c0b;
+  }
+}
+
+
+.navbar #logo img{margin:0; padding-top:0px; height:50px}
+@media (max-width: 767px){
+  .navbar #logo img{margin-left:10px; margin-top:5px;padding-top:0px; height:40px}
+}
+
+
+
+
+/*************************************************************************/
+/**                          Joyce's Customized CSS Codes             **/
+/*************************************************************************/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(67, 155, 161);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+header {
+  background-color: silver; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 9999;
+  height:100px;
+}
+
+.fa-1x {
+  font-size: 3em;
+  color: white;
+}
+
+.cover h1 {
+  color: white;
+  text-shadow: 3px 2px 10px #1f1f1f;
+}
+
+.cover p {
+  color:white;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  background: white;
+  color: rgb(67, 155, 161);
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.modal-body p {
+  margin: 10px 0px 0px 0px;
+}
+
+.modal-body {
+  padding:40px;
+}
+@media(max-width:767px){
+  .modal-body {padding:30px; padding-bottom: 10px;}
+}
+
+#snap  {
+  border-width: 1px;
+  background: white;
+  color: #1a3959;
+  border-style: solid;
+  border-color: #1a3959;
+}
+
+#snap:hover {
+  background: #1a3959;
+  color: white;
+}
+
+.thumbnail {
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  overflow:hidden;
+}
+.thumbnail img:hover{transform: scale(1.1)}
+.thumbnail img{transition: transform .3s ease;}
+
+.caption {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#album {
+  padding-top: 5%;
+  padding-bottom: 8%;
+  padding:3rem 1.8rem 5rem 1.8rem;
+}
+
+.navbar-default {
+  background-color:#fff;
+  /*padding: 10px;*/
+}
+
+#myBtn {
+  display: inline-block !important;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    z-index: 99;
+    font-size: 22px !important;
+    border: none;
+    outline: none;
+    background-color: #fa5105;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#myBtn:hover {
+  background-color: rgb(67, 155, 161);
+}
+
+.float-right {
+  float: right!important;
+}
