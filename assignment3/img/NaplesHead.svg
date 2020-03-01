@@ -1,80 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1593.5 374.4" style="enable-background:new 0 0 1593.5 374.4;" xml:space="preserve">
+	 viewBox="0 0 1430.9 331.5" style="enable-background:new 0 0 1430.9 331.5;" xml:space="preserve">
 <style type="text/css">
-	@import url('https://fonts.googleapis.com/css?family=Alegreya|Gelasio|Noto+Serif+TC|Stoke');
-	.st0{fill:#FF8C09;}
-	.st1{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
-	.st2{font-size:330.14px;}
-	.st3{display:none;}
-	.st4{display:inline;}
-	.st5{stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FF8C09;}
+	.st3{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
+	.st4{font-size:330.1423px;}
+	.st5{letter-spacing:-4.2;}
+	.st6{fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
-<g id="图层_1">
-	<title>NsplesHead</title>
-	<g id="text">
-		<text transform="matrix(1 0 0 1 333.56 290.53)" class="st0 st1 st2" style="font-family:'Alegreya', serif;">Naples</text>
+<g id="图层_1" class="st0">
+	
+		<image style="display:inline;overflow:visible;" width="348" height="42" xlink:href="9D93F390D43D2166.png"  transform="matrix(4.5115 0 0 4.5115 -46.6246 47.7526)">
+	</image>
+	<g class="st1">
+		
+			<image style="overflow:visible;" width="1873" height="265" xlink:href="9D93F390D43D2160.png"  transform="matrix(0.4623 0 0 0.4623 305.3755 391.7526)">
+		</image>
+		
+			<image style="overflow:visible;" width="1873" height="265" xlink:href="9D93F390D43D216F.png"  transform="matrix(0.4623 0 0 0.4623 305.3755 391.7526)">
+		</image>
 	</g>
 </g>
-<g id="图层_2" class="st3">
-	<g class="st4">
-		<path class="st5" d="M282.1,190.6h-236c-1,0.6-2.6,1.4-4.5,2.6c-2.4,1.5-4.8,3.2-7,5c-6.6,5.2-32.1,8.4-32.1,8.6
-			c0,0.5,132.1,0.4,279.6,0"/>
-		<path class="st6" d="M282.5,190.8c1.1,2.5,1.8,5.2,2,7.9c0,3.4-2,9.1-2,9.1"/>
-	</g>
-	<g class="st4">
-		<g>
-			<path class="st7" d="M1488.5,158.9c11.5-2.7,23.4-3.1,35.1-1.1c32.8,5.6,58.9,26.9,67.4,41.4"/>
-		</g>
-		<g>
-			<path class="st7" d="M1488.5,239.9c9.5,2.2,21.3,2.5,35.1,1.1c32.9-3.3,59.9-28.3,67.4-41.4"/>
-		</g>
-		<g>
-			<path class="st7" d="M1488.2,160.1l13,19c0,0,10.3-1.3,16.3-1.3s12,1,13,5s-6,9-8,10s-238.8,0-238.8,0"/>
-		</g>
-		<g>
-			<path class="st7" d="M1488.5,239.7l13-18c0,0,9,1,15,1s12-1,13-5s-6-9-8-10s-238-0.4-238-0.4"/>
-		</g>
-		<g>
-			<path class="st6" d="M1282.5,192.2c0.6,2.5,0.9,5,1,7.5c-0.1,2.9-0.5,5.7-1,8.5"/>
-		</g>
-	</g>
+<g id="text">
+	<text transform="matrix(0.95 0 0 1 304.9375 241.1539)" class="st2 st3 st4 st5">Naples</text>
 </g>
-<g id="图层_2_x5F_复制">
+<g id="arrow">
 	<g>
-		<path class="st7" d="M282.1,190.6h-236c-1,0.6-2.6,1.4-4.5,2.6c-2.4,1.5-4.8,3.2-7,5c-6.6,5.2-32.1,8.4-32.1,8.6
-			c0,0.5,132.1,0.4,279.6,0"/>
-		<path class="st6" d="M282.5,190.8c1.1,2.5,1.8,5.2,2,7.9c0,3.4-2,9.1-2,9.1"/>
+		<path class="st6" d="M308.9,145.1H73.4c-1,0.4-2.6,1.2-4.5,2.1c-3.9,2-6.6,3.7-7,4c-6.5,4.1-32,6.7-32,6.9c0,0.4,131.8,0.3,279,0"
+			/>
+		<path class="st7" d="M309.9,145.2c0,0,2,3.5,2,6.3c0,2.7-2,7.2-2,7.2"/>
 	</g>
 	<g>
-		<g>
-			<g>
-				<path class="st7" d="M1488.5,158.9c11.5-2.7,23.4-3.1,35.1-1.1c32.8,5.6,58.9,26.9,67.4,41.4"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<path class="st7" d="M1488.5,239.9c9.5,2.2,21.3,2.5,35.1,1.1c32.9-3.3,59.9-28.3,67.4-41.4"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<path class="st7" d="M1488.2,160.1l13,19c0,0,10.3-1.3,16.3-1.3s12,1,13,5s-6,9-8,10s-238.8,0-238.8,0"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<path class="st7" d="M1488.5,239.7l13-18c0,0,9,1,15,1s12-1,13-5s-6-9-8-10s-238-0.4-238-0.4"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<path class="st6" d="M1282.5,192.2c0.6,2.5,0.9,5,1,7.5c-0.1,2.9-0.5,5.7-1,8.5"/>
-			</g>
-		</g>
+		<path class="st8" d="M1324.4,120.3c8.1-1.8,18.3-2.8,29.9-0.9c28,4.5,50.2,21.8,57.4,33.5"/>
+		<path class="st8" d="M1324.5,187.7c8.1,1.9,18.1,2.1,29.8,1c28-2.8,51-24.2,57.3-35.5"/>
+		<path class="st8" d="M1324.8,121.4l11.1,16.4c0,0,8.8-1.1,13.9-1.1s10.3,0.9,11.1,4.3s-5.1,7.8-6.8,8.6c-1.7,0.9-18.8,0-18.8,0"/>
+		<path class="st8" d="M1324.4,187.4l11.3-13.3c0,0,7.8,0.7,13.1,0.7c5.2,0,10.5-0.7,11.3-3.7c0.9-3-5.2-6.7-7-7.4s-19.2,0-19.2,0"
+			/>
+		<line class="st8" x1="1335.5" y1="149.8" x2="1136.8" y2="149.8"/>
+		<line class="st8" x1="1335.5" y1="163.6" x2="1136.8" y2="163.6"/>
+		<path class="st7" d="M1135.9,149.3c0,0,0.9,3.8,0.9,6.9c0,2.9-0.9,7.8-0.9,7.8"/>
 	</g>
 </g>
 </svg>
