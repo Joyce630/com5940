@@ -4,5 +4,6 @@
 <br><a href="https://joyce630.github.io/com5940/assignment3/index.html">https://joyce630.github.io/com5940/assignment3/index.html</a>
 <br><br>Uploaded to phoneGap! Android and win phone can download the app. But IOS version is not available.
 <br>Please scan this qrcode to download the app.
-<br>![image](https://joyce630.github.io/com5940/assignment3/qrcode.png)
+
+![image](https://joyce630.github.io/com5940/assignment3/qrcode.png)
   
