@@ -7,7 +7,6 @@
 <br><b>2.PythonAnywhere </b>
 <br><li>Reproduce the album in PA, access it through mysqldb
 <br><br>Code and finished website:
-
 1.<a href="https://github.com/Joyce630/com5940/tree/master/assignment%234/test%20basic%20auth" target="_blank">Jupyternotebook with the codes and templates</a>
 <br>2.<a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
 
