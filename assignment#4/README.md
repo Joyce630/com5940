@@ -1,8 +1,8 @@
 # Assignment#4
 <h4> Ziqiao Li (Joyce), Student id:1155128280</h4>
 <br><b>1.JupyterNotebook </b>
-<br>Build the album in Flask, and build basic authentication (form&query) with the Flask-login manager.
-<br>Use {% block content %} to build the templates.
+<br><ul>Build the album in Flask, and build basic authentication (form&query) with the Flask-login manager.
+<br><ul>Use {% block content %} to build the templates.
 <br><b>2.PythonAnywhere </b>
 <br>Reproduce the album in PA, access it through mysqldb
 
