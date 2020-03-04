@@ -9,5 +9,6 @@
 <br><br>Code and finished website:
 
 1.[Jupyternotebook with the codes and templates](https://github.com/Joyce630/com5940/tree/master/assignment%234/test%20basic%20auth)
-<br>2.[Link to PythonAnywere](www.joyce.pythonanywhere.com) 
+<br>2.<a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
+
 
