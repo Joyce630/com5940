@@ -4,7 +4,7 @@
 Check the website here: <a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
 
 <br>1. Jupyter notebook code:
-<br>[lesson3_flask_Assign#2.py](https://github.com/Joyce630/com5940/blob/master/assignment%232/lesson3_flask_Assign%232.py)
-<br>2. Webpage code :
-<br>[home.html](https://github.com/Joyce630/com5940/blob/master/assignment%232/home.html)
+1.<br>[Jupyternotebook and templates](https://github.com/Joyce630/com5940/tree/master/assignment%234/test%20basic%20auth)
+<br>2. PythonAnywhere :
+2.<br>[PythonAnywhere](joyce.pythonanywhere.com)
 
