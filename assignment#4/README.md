@@ -11,4 +11,5 @@
 <br>2.<a href="https://github.com/Joyce630/com5940/blob/master/assignment%234/Naples.sql" target="_blank">SQL file</a>
 <br>3.<a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
 
+<br>The zip file contains the file above. Click here to download.
 
