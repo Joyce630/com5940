@@ -1,6 +1,6 @@
 # Assignment#5
 <h4> Ziqiao Li (Joyce), Student id:1155128280</h4>
-<b>The zip file contains all the files above. Please click <a href="https://github.com/Joyce630/com5940/raw/master/assignment%235/JoyceAssign5zip.zip">here</a> to download.</b>
+<b>The zip file contains all the files in this repository. Please click <a href="https://github.com/Joyce630/com5940/raw/master/assignment%235/JoyceAssign5zip.zip">here</a> to download.</b>
 <br><br>Requirement:
 <br><li>Use Flask-SQLAlchemy to connect to my database
 <br><li> Add pagination to album
