@@ -5,7 +5,7 @@
 <br><li> Add pagination to album
 <br><li> Add CRUD support to album itmes table
 <br><li>PythonAnywhere: connect to database: app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://joyce:Q565656656@joyce.mysql.pythonanywhere-services.com/joyce$joyce'
-<br> Please login to check the "Album" and "List". 
+<br><br>Please login to check the "Album" and "List". 
 <br> Username: joyce@link.cuhk.edu.hk
 <br> Password: joyce@cuhk
   
