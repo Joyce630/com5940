@@ -1,0 +1,74 @@
+.navbar-inverse{
+    background:none!important;
+    border:none!important
+}
+
+#baseContainer{
+    /*padding-right: 0px!important;
+    padding-left: 0px!important;*/
+    background-color: #52a6ac!important;
+    border-color: #52a6ac!important;
+}
+
+
+.navbar-header{
+    background-color: #439BA1!important;
+    border-color:#439BA1!important
+}
+
+@media (min-width: 768px) {
+.navbar-header{
+    background-color: #439BA1!important;
+    border-color:#439BA1!important
+}}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color:white;
+    color:#ff8523!important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color:#52a6ac!important;
+}
+
+.container #albumTitle{
+    color:#ff8523!important;
+}
+
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container>.navbar-header {
+    margin-right: 0px!important; 
+    margin-left: 0px!important; 
+    background-color: #52a6ac!important;
+}
+
+
+.col-md-4{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom:10px;
+}
+
+.nav .navbar-nav a{
+    color:white!important
+}
+
+.card{
+    border: 1px solid rgba(0,0,0,.125)!important;
+    border-radius: .25rem!important;
+    box-shadow: 0 .4rem .4rem rgba(0,0,0,.2)!important;
+}
+
+.card-text p{
+    padding:10px!important;
+    margin-bottom: 1rem!important;
+}
+
+
+
+
+

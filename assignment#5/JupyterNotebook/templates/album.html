@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+  {% for destination in destination.items %}
+       {% if loop.index == 1 %}{% set counter = ( counter | default(1) ) %}{% endif %}
+        {% if counter == 1 %}<div class="row align-items-center justify-content-center">{% endif %}
+
+        <div class="col-md-4" style=" padding-right: 15px!important;padding-left: 15px!important;padding-bottom: 15px!important">
+          
+            <div class="card mb-4 shadow-sm" style="border: 1px solid rgba(0,0,0,.125)!important;border-radius: 0.5rem!important;box-shadow: 0 .2rem .5rem rgba(0,0,0,.125)!important;" >
+             
+                <a href="{{destination.DesPageLink}}" target="_blank">
+                   <div class="imgwrapper" style="overflow:hidden">
+                    <img src="{{destination.picUrl}}" class="img-fluid" width="100%" height="50%">
+                   </div>    
+                </a>         
+             <div class="card-body" style="padding:1.25rem">
+                <p class="card-text">
+                    <br>Destination:{{ destination.DestinationEn }}<br>Latitude:{{ destination.lat }}<br>Longitude:{{ destination.lng }}<br>
+                </p>  
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" 
+                          onclick="window.location.href = '{{destination.DesPageLink}}';" target="_blank"
+                          style="background-color:#fff;border-color: #6c757d;">View</button>
+                </div>
+              </div>
+            </div>  <!-- end card body-->
+          </div> <!-- end card-->
+
+        </div> <!-- end column-->
+
+       {% if counter == 3 %}</div><!--end row-->{%  set counter = ( counter | default(1) ) %}{% else %}{% set counter = ( counter | default(0) ) + 1 %}{% endif %}
+  {% endfor %}
+
+  <div class="container" style="float: left;">
+  {% for page in destination.iter_pages() %}  
+    {% if page %}
+        <a href="{{url_for('album')}}/{{ page }}">{{ page }}</a>
+    {% else %}
+        ...
+    {% endif %}
+  {% endfor %}  
+  </div>
+{% endblock %}
