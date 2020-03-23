@@ -9,7 +9,6 @@
 <br><br>Please login to check the "Album" and "List". 
 <br> Username: joyce@link.cuhk.edu.hk
 <br> Password: joyce@cuhk
-  
 <br><br>Code and finished website:
 <br>1.<a href="https://github.com/Joyce630/com5940/tree/master/assignment%235/JupyterNotebook" target="_blank">Jupyternotebook</a>
 <br>2.<a href="https://github.com/Joyce630/com5940/blob/master/assignment%235/DestinationsAll.sql" target="_blank">SQL file</a>
