@@ -1,5 +1,6 @@
 # Assignment#5
 <h4> Ziqiao Li (Joyce), Student id:1155128280</h4>
+<br><b>The zip file contains all the files above. Please click <a href="https://github.com/Joyce630/com5940/raw/master/assignment%235/JoyceAssign5zip.zip">here</a> to download.</b>
 <br>Requirement:
 <br><li>Use Flask-SQLAlchemy to connect to my database
 <br><li> Add pagination to album
@@ -14,5 +15,5 @@
 <br>2.<a href="https://github.com/Joyce630/com5940/blob/master/assignment%235/DestinationsAll.sql" target="_blank">SQL file</a>
 <br>3.<a href="http://joyce.pythonanywhere.com/" target="_blank">joyce.pythonanywhere.com</a>
 
-<br><b>The zip file contains all the files above. Please click <a href="https://github.com/Joyce630/com5940/raw/master/assignment%235/JoyceAssign5zip.zip">here</a> to download.</b>
+
 
