@@ -3,8 +3,8 @@
 <b>The zip file contains all the files in this repository. Please click <a href="https://github.com/Joyce630/com5940/raw/master/assignment%235/JoyceAssign5zip.zip">here</a> to download.</b>
 <br><br>Requirement:
 <br><li>Use Flask-SQLAlchemy to connect to my database
-<br><li> Add pagination to album
-<br><li> Add CRUD support to album itmes table
+<br><li> Add pagination to album (img styling!)
+<br><li> Add CRUD support to album itmes table (pay attention to the name consistency...)
 <br><li>PythonAnywhere: connect to database: app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://joyce:Q565656656@joyce.mysql.pythonanywhere-services.com/joyce$joyce'
 <br><br>Please login to check the "Album" and "List". 
 <br> Username: joyce@link.cuhk.edu.hk
